@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ArcGIS Embedded Map</title>
+  <title>Geological Web Map – Presentation Slide</title>
 
   <!-- ArcGIS Embeddable Components -->
   <script type="module" src="https://js.arcgis.com/4.34/embeddable-components/"></script>
@@ -10,30 +10,64 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background-color: #121212;
+      background-color: #0f172a;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* PowerPoint Slide */
+    .slide {
+      width: 1280px;
+      height: 720px;
+      background-color: #020617;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* Title */
+    .title {
+      color: #e5e7eb;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Map container */
+    .map-container {
+      width: 100%;
+      height: calc(100% - 50px);
     }
   </style>
 </head>
 
 <body>
 
-  <arcgis-embedded-map
-    style="height:600px;width:700px;"
-    item-id="0e9da3c3f2f141f38edf5ec4aaa96733"
-    theme="dark"
-    bookmarks-enabled
-    heading-enabled
-    legend-enabled
-    information-enabled
-    center="-0.7900734381811387,54.35286184106373"
-    scale="9244648.868618"
-    portal-url="https://ucd-cpe.maps.arcgis.com">
-  </arcgis-embedded-map>
+  <div class="slide">
+    <div class="title">
+      BGS 625k Geological Map – Web Visualization
+    </div>
+
+    <div class="map-container">
+      <arcgis-embedded-map
+        style="width:100%; height:100%;"
+        item-id="0e9da3c3f2f141f38edf5ec4aaa96733"
+        theme="dark"
+        bookmarks-enabled
+        legend-enabled
+        information-enabled
+        heading-enabled
+        center="-0.7900734381811387,54.35286184106373"
+        scale="9244648.868618"
+        portal-url="https://ucd-cpe.maps.arcgis.com">
+      </arcgis-embedded-map>
+    </div>
+  </div>
 
 </body>
 </html>
+
