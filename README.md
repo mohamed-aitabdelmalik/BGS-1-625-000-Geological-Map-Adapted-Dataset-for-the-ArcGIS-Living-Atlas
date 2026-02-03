@@ -1,6 +1,6 @@
 🗺️ Geological Map – BGS 625k.
 
-
+Web Map : https://mohamed-aitabdelmalik.github.io/BGS-1-625-000-Geological-Map-Adapted-Dataset-for-the-ArcGIS-Living-Atlas/
 
 I’m pleased to share a geological map exported as a PDF, created from the BGS Geology 625k dataset and prepared for web visualization, presentation, and educational use.
 
