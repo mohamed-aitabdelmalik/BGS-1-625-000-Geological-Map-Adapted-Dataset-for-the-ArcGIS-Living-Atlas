@@ -28,6 +28,7 @@ Superficial Geology
 
 Linear Features (Faults)
 
+<img width="2550" height="3300" alt="Title Bar Letter Portrait" src="https://github.com/user-attachments/assets/e8a936fb-7c64-4ff9-9410-970dfee23efa" />
 
 
 Geological maps form the foundation for many Earth science applications and are widely used in research, education, and spatial analysis.
